@@ -1,0 +1,228 @@
+::placeholder {
+  color: white;
+}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+
+#l {
+	background-color: #ccc;
+	border: solid 1px #ccc;
+	width: 700px;
+	border-radius: 10px;
+	background-color: rgba(100, 100, 100, 0.5);
+	color:white;
+	font-size: 25PX;
+}
+#l:focus {
+	border-color: #333;
+	border: solid 1px #fff;
+}
+
+    #s {
+	background-color: #ccc;
+	border: solid 1px #ccc;
+	width: 200px;
+	border-radius: 10px;
+	background-color: rgba(100, 100, 100, 0.5);
+	color:white;
+	font-size: 25PX
+}
+#s:focus {
+	border-color: #333;
+	border: solid 1px #fff;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+#myNavbar a:hover{
+    text-decoration: none;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 200px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:grey;
+  overflow: hidden;
+  width: 93.2%;
+  height: 30%;
+  margin-left: 3.3%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  height: 100%;
+  opacity: 70%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+    .modal-backdrop {
+  z-index: -1;
+        background-color: #a1a1a1;
+}
+    
+.inputDnD .form-control-file {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 6em;
+  outline: none;
+  visibility: hidden;
+  cursor: pointer;
+  background-color: #c61c23;
+  box-shadow: 0 0 5px solid #c2c2c2;
+  opacity:0.7;
+}
+.inputDnD .form-control-file:before {
+    
+  content: attr(data-title);
+  position: absolute;
+  top: 0.1em;
+  left: 0;
+  width: 100%;
+  min-height: 6em;
+  line-height: 2em;
+  padding-top: 1.5em;
+  opacity: 1;
+  visibility: visible;
+  text-align: center;
+  border: 0.25em dashed #c2c2c2;
+  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  overflow: hidden;
+}
+.inputDnD .form-control-file:hover:before {
+  border-style: solid;
+  border-color: #c2c2c2;
+  box-shadow: inset 0px 0px 0px 0.12em #c2c2c2;
+  opacity: default;
+}
+.inputtext {
+    display: flex;
+    align-items: center;
+    
+}
+.bottone {
+    margin-top: 10px; width: 350px; background-color: #999999; border: #999999;
+}
+.bottone:hover{
+    background-color: #575757; border: #575757;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+::placeholder {
+  color: white;
+}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+
+}
+input[type=search] {
+	background-color: #ccc;
+	border: solid 1px #ccc;
+	padding: 9px 10px 9px 5px;
+	width: 700px;
+	border-radius: 10px;
+	background-color: rgba(100, 100, 100, 0.5);
+	color:white;
+	font-size: 25PX
+}
+input[type=search]:focus {
+	border-color: #333;
+	border: solid 1px #fff;
+}
+
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+
+    .modal-backdrop {
+  z-index: -1;
+        background-color: #a1a1a1;
+}
+    
+.inputDnD .form-control-file {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 6em;
+  outline: none;
+  visibility: hidden;
+  cursor: pointer;
+  background-color: #c61c23;
+  box-shadow: 0 0 5px solid #c2c2c2;
+  opacity:0.7;
+}
+.inputDnD .form-control-file:before {
+    
+  content: attr(data-title);
+  position: absolute;
+  top: 0.1em;
+  left: 0;
+  width: 100%;
+  min-height: 6em;
+  line-height: 2em;
+  padding-top: 1.5em;
+  opacity: 1;
+  visibility: visible;
+  text-align: center;
+  border: 0.25em dashed #c2c2c2;
+  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  overflow: hidden;
+}
+.inputDnD .form-control-file:hover:before {
+  border-style: solid;
+  border-color: #c2c2c2;
+  box-shadow: inset 0px 0px 0px 0.12em #c2c2c2;
+    opacity: default;
+}
+.inputtext {
+    display: flex;
+    align-items: center;
+    
+}
+.bottone {
+    margin-top: 10px; width: 350px; background-color: #999999; border: #999999;
+}
+.bottone:hover{
+    background-color: #575757; border: #575757;
+}
